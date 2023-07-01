@@ -16,7 +16,7 @@ class CoreLogic {
     // The code below shows how you can fetch your stored value from level DB
 
     const sub = "大我大";
-    return cid;
+    return sub;
   }
 
   async generateDistributionList(round, _dummyTaskState) {
