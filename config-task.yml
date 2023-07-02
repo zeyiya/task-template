@@ -1,45 +1,30 @@
 #Provide the taskId if you are updating the task
 task_id: 'qq-11283'
 # Name and desciption of your task
-task_name: '大大'
-task_description: |
-  我们是脑力大大！
-
-  加入我们！
-
-  此委托不会发放奖励。
-
-  投入代, 我们的运算DAO将有属于你的位置。
-
-  投入越多，声望值越高
-
-  即使只投入一小部分，坚持一段时间，也能确保你成为我们的一员
-
-  我们的全球化AI将势不可!
-
-  我们是，脑力大大
+task_name: '-.-'
+task_description: 'the information is here: https://github.com/zeyiya/task-template/'
 
 # network value can be DEVELOPMENT , ARWEAVE or IPFS
 task_executable_network: 'IPFS'
 
 # Provide your web3.storage key as it is needed for uploading your metadata
-secret_web3_storage_key: ''
+secret_web3_storage_key: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDRhMzUyYTMxYjhlQzY4MDFCMWFhMENDZmQ2ZjZEMDdmYTI5NDM4RjUiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2ODgxNzQ4ODUwNzcsIm5hbWUiOiJxcSJ9.yRSgW7yuCTmPtNABV2oRgr4a50CeF9kUGYGJap8HG6k'
 
 # Path to your executable webpack if the selected network is IPFS otherwise leave blank
-task_audit_program: ''
+task_audit_program: '/home/qq/qq/task-template/dist/main.js'
 
 # Provide your transaction ID in case of ARWEAVE and in case of DEVELOPMENT give your executable name as main otherwise leave blank
-task_audit_program_id: 'main'
+task_audit_program_id: ''
 
 # Total round time of your task : it must be given in slots and each slot is rougly equal to 4ms
-round_time: 600
+round_time: 60000
 
-audit_window: 200
-submission_window: 200
+audit_window: 20000
+submission_window: 20000
 
 # Amounts in KOII
 
-minimum_stake_amount: 5
+minimum_stake_amount: 0.01
 
 # total_bounty_amount cannot be grater than bounty_amount_per_round
 # total bounty is not accepted in case of update task
