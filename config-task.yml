@@ -1,8 +1,8 @@
 #Provide the taskId if you are updating the task
 task_id: 'qq-11283'
 # Name and desciption of your task
-task_name: '-.-'
-task_description: 'the information is here: https://github.com/zeyiya/task-template/'
+task_name: 'o.O'
+task_description: 'info: https://github.com/zeyiya/task-template/'
 
 # network value can be DEVELOPMENT , ARWEAVE or IPFS
 task_executable_network: 'IPFS'
@@ -42,22 +42,7 @@ space: 1
 # To add more global variables and task variables, please refer the type,value,description format shown below
 
 author: '脑力大大'
-description: |
-  我们是脑力大大！
-
-  加入我们！
-
-  此委托不会发放奖励。
-
-  投入代, 我们的运算DAO将有属于你的位置。
-
-  投入越多，声望值越高
-
-  即使只投入一小部分，坚持一段时间，也能确保你成为我们的一员
-
-  我们的全球化AI将势不可!
-
-  我们是，脑力大大
+description: 'info https://github.com/zeyiya/task-template/'
 repositoryUrl: 'https://github.com/zeyiya/task-template'
 imageUrl: 'https://i.pinimg.com/736x/a5/a7/bf/a5a7bf02c09d778ff7863f515b31ffff--screen-shot-screens.jpg'
 requirementsTags:
