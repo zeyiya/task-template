@@ -4,7 +4,7 @@ const crypto = require('crypto');
 class CoreLogic {
   async task() {
     // Write the logic to do the work required for submitting the values and optionally store the result in levelDB
-    console.log('...')
+    console.log('感谢您参与脑力大大！')
   }
   async fetchSubmission() {
     // Write the logic to fetch the submission values here and return the cid string
@@ -15,7 +15,8 @@ class CoreLogic {
 
     // The code below shows how you can fetch your stored value from level DB
 
-    const sub = "大我大";
+    const sub = "您成功参与了本轮的任务提交";
+    console.log(sub);
     return sub;
   }
 
@@ -70,18 +71,8 @@ class CoreLogic {
 
     // try{
 
-    console.log('Received submission_value', submission_value, round);
-    // const generatedValue = await namespaceWrapper.storeGet("cid");
-    // console.log("GENERATED VALUE", generatedValue);
-    // if(generatedValue == submission_value){
-    //   return true;
-    // }else{
-    //   return false;
-    // }
-    // }catch(err){
-    //   console.log("ERROR  IN VALDIATION", err);
-    //   return false;
-    // }
+    console.log('Received submission_value', round);
+    console.log('您成功完成了本轮的验证阶段')
 
     // For succesfull flow we return true for now
     return true;
